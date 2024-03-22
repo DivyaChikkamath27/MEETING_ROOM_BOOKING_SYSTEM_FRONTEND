@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Meetingroom.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+}
+.cantora-one-regular {
+    font-family: "Cantora One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: maroon;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+
+}
+
+.room-management,
+.booking-management {
+    display: inline-block;
+    width: 50%; /* Each section takes up half of the container's width */
+    vertical-align: top; /* Align them to the top */
+    color:black;
+    
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center the items horizontally */
+}
+.container first {
+    background-image: url('meetingroom 2.jpg'); /* add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    align-items: center; /* center content vertically */
+    justify-content: center; /* center content horizontally */
+}
+ssories-bar {
+    width: 100%; /* Full width of the container */
+    display: flex;
+    justify-content: space-between; /* Spacing between the sections */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="Email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.first.container {
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox for centering content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+.booking-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    margin: 20px 0; /* Margin for spacing */
+    max-width: 500px; /* Maximum width */
+    text-align: center; /* Center align text */
+}
+
+.booking-content h2 {
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.booking-content p {
+    font-size: 16px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.booking-content button {
+    padding: 10px 20px; /* Padding */
+    background-color: #007bff; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+}
+
+.booking-content button:hover {
+    background-color: #0056b3; /* Hover background color */
+}
+
+#error {
+    color: red;
+}

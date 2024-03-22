@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container first" style="background-image: url('Assets/meetingroom 2.jpg');">
+        <div class="booking-box">
+            <div class="booking-content">
+                <h2>Book Meeting Rooms!</h2>
+                <p>Looking for a place to be productive or host a brainstorming session just for a day or two? Whether you are coming in solo or with your small team, book one of our shared workspaces or meeting rooms as and when you desire.</p>
+                <button type="button" id="bookNowBtn">Book Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("bookNowBtn").addEventListener("click", function() {
+            // Redirect to the second page containing room management and booking management
+            window.location.href = "another-page.html";
+        });
+    </script>
+</body>
+</html>
